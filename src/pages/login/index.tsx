@@ -87,7 +87,7 @@ const schema = yup.object().shape({
 
 const defaultValues = {
   password: 'admin',
-  email: 'admin@vuexy.com'
+  email: 'admin@ems.com'
 }
 
 interface FormData {
@@ -220,7 +220,7 @@ const LoginPage = () => {
                       value={value}
                       onBlur={onBlur}
                       onChange={onChange}
-                      placeholder='admin@vuexy.com'
+                      placeholder='admin@ems.com'
                       error={Boolean(errors.email)}
                       {...(errors.email && { helperText: errors.email.message })}
                     />
@@ -277,7 +277,7 @@ const LoginPage = () => {
                   Forgot Password?
                 </Typography>
               </Box> */}
-              <Button fullWidth type='submit' variant='contained' sx={{ mb: 4, mt:4 }}>
+              <Button fullWidth type='submit' variant='contained' sx={{ mb: 4, mt: 4 }}>
                 Login
               </Button>
               {/* <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'center' }}>
