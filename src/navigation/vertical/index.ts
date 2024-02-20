@@ -6,20 +6,26 @@ const navigation = (): VerticalNavItemsType => {
     {
       title: 'Home',
       path: '/home',
-      icon: 'tabler:smart-home',
+      icon: 'tabler:smart-home'
     },
     {
-      title: 'Second Page',
-      path: '/second-page',
-      icon: 'tabler:mail',
+      title: 'Employees',
+      path: '/employees',
+      icon: 'tabler:mail'
     },
     {
-      path: '/acl',
-      action: 'read',
-      subject: 'acl-page',
-      title: 'Access Control',
-      icon: 'tabler:shield',
-    }
+      title: 'Departments',
+      path: '/departments',
+      icon: 'tabler:mail'
+    },
+    
+    // {
+    //   path: '/acl',
+    //   action: 'read',
+    //   subject: 'acl-page',
+    //   title: 'Access Control',
+    //   icon: 'tabler:shield'
+    // }
   ]
 }
 
